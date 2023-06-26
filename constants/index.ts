@@ -92,3 +92,11 @@ export const footerLinks = [
     ],
   },
 ];
+
+export const camelCaseToTitleCase = (str: string) => {
+  switch(str) {
+    case 'githubUrl': return 'GitHub URL';
+    case 'liveSiteUrl': return 'Live Site URL';
+    default: return str.charAt(0).toUpperCase() + str.slice(1);
+  }
+}
