@@ -1,5 +1,19 @@
 import { User, Session } from "next-auth";
 
+export type ProjectsSearch = {
+  projectSearch: {
+    edges: {
+      node: ProjectInterface;
+    }[];
+    pageInfo: {
+      hasPreviousPage: boolean;
+      hasNextPage: boolean;
+      startCursor: string;
+      endCursor: string;
+    };
+  };
+};
+
 export type FormState = {
   title: string;
   description: string;
