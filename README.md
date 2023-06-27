@@ -5,7 +5,7 @@
 ![Project Banner](.github/assets/readme_banner.png#gh-dark-mode-only)
 ![Project Banner](.github/assets/readme_banner-light.png#gh-light-mode-only)
 
-  <img src="./public/logo-purple.svg" width="20%" />
+  <img src="./public/logo-purple.svg" width="25%" />
   <p>
   Flexibble is a community for creatives to share, grow, and get hired.
   </p>
