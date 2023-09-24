@@ -27,6 +27,6 @@
     "typescript": "^5.2.2"
   },
   "devDependencies": {
-    "@grafbase/sdk": "^0.6.2"
+    "@grafbase/sdk": "^0.1.0"
   }
 }
