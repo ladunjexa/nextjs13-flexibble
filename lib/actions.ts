@@ -6,6 +6,7 @@ import {
   getProjectsOfUserQuery,
   getUserQuery,
   projectsQuery,
+  allProjectsQuery,
   updateProjectMutation,
 } from "@/graphql";
 import { GraphQLClient } from "graphql-request";
